@@ -2,7 +2,9 @@ package testing;
 
 import org.testng.annotations.Test;
 
-public class Testcase2 
+import generic.Base_Class;
+
+public class Testcase2 extends Base_Class
 {
 	@Test
 	public void test2()
