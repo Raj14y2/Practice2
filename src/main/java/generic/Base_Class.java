@@ -11,8 +11,9 @@ import org.testng.annotations.Parameters;
 public class Base_Class 
 {
 	public WebDriver driver;
-	@Parameters("Browser")
+	
 	@BeforeClass
+	@Parameters("Browser")
 	public void launch(String Browser)
 	{
 		if(Browser.equals("chrome"))
